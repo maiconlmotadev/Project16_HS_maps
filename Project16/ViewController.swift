@@ -20,7 +20,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let paris = Capital(title: "Paris", coordinate: CLLocationCoordinate2D(latitude: 48.8567, longitude: 2.3508), info: "Often called the City of Light.")
         let rome = Capital(title: "Rome", coordinate: CLLocationCoordinate2D(latitude: 41.9, longitude: 12.5), info: "Has a whole country inside it.")
         let washington = Capital(title: "Washington DC", coordinate: CLLocationCoordinate2D(latitude: 38.895111, longitude: -77.036667), info: "Named after George himself.")
-        let porto = Capital(title: "Porto city", coordinate: CLLocationCoordinate2D(latitude: 41.150990, longitude: -8.603985), info: "Rua da Firmeza, Bonfim.")
+        let porto = Capital(title: "Lisboa", coordinate: CLLocationCoordinate2D(latitude: 38.725278, longitude: -9.150000), info: "Parque Eduardo VII.")
         
         mapView.addAnnotations([london, oslo, paris, rome, washington, porto])
     }
